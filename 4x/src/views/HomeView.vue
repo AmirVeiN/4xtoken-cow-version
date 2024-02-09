@@ -1,6 +1,4 @@
-<script setup>
-import headerComponent from '@/components/headerComponent.vue';
-</script>
+
 
 <template>
     <div class="bg-black w-full h-full ">
@@ -17,22 +15,43 @@ import headerComponent from '@/components/headerComponent.vue';
                             but also the leap into electronic
                         </p>
                         <div class="flex flex-row justify-between w-[500px] space-x-4">
-                            <RouterLink to="/" 
+                            <RouterLink to="/"
                                 class="bg-blue1 font-Lato text-white flex justify-center items-center rounded-full text-xl py-3 w-full">
                                 Buy Now
                             </RouterLink>
-                            <RouterLink to="/" 
+                            <RouterLink to="/"
                                 class="bg-blue2 font-Lato text-white flex justify-center items-center rounded-full text-xl py-3 w-full">
                                 WhitePaper
                             </RouterLink>
                         </div>
                     </div>
                     <div class="w-[1200px]">
-                        <video class="z-10" loop autoplay >
+                        <video class="z-10" loop width="100%" height="100%" muted autoplay="autoplay">
                             <source src="../assets/land7.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
             </div>
         </div>
-    </div></template>
+    </div>
+</template>
+
+<script setup>
+import headerComponent from '@/components/headerComponent.vue';
+
+</script>
+
+<script>
+
+
+import { RouterLink } from 'vue-router';
+
+export default {
+    data() {
+        return {
+
+        };
+    },
+    components: { RouterLink }
+};
+</script>
