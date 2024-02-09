@@ -14,16 +14,18 @@ import {
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {faBars} from "@fortawesome/free-solid-svg-icons"
- 
+import {faBars , faCheck} from "@fortawesome/free-solid-svg-icons"
+import {faCopy} from "@fortawesome/free-regular-svg-icons"
+
 library.add(
     faTwitter,
     faTelegram,
     faDiscord,
     faInstagram,
     faBars,
+    faCopy,
+    faCheck,
 );
-
 const app = createApp(App)
 
 app.use(router)

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center  items-center w-full h-full bg-gradient-to-r from-black via-blue2 to-black shadow-lg shadow-blue2">
+  <div class="flex justify-center  items-center w-full h-full bg-gradient-to-r from-black via-blue2/50 to-black shadow-lg shadow-blue2">
     <div class="flex w-[70%] h-24 flex-row justify-between items-center min-w-[800px] ">
       <div class="flex items-center min-w-60 flex-row justify-between">
         <RouterLink to="/"

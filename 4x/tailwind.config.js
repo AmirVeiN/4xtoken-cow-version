@@ -60,7 +60,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'Lato': ['Lato']
+        'Lato': ['Rubik']
       }
     },
   },
