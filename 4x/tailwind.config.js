@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    colors : {
-      red1 : "#965959",
-      red2 : "#571e1e",
-      red3 : "#d9302c",
-      yellow : "#feb72f",
+    colors: {
+      blue1: "#3373e9",
+      blue2: "#0e398a",
+      yellow: "#feb72f",
       black: "#000000",
       balckPhone: "#37363b",
       blue: "#435fcb",
@@ -55,9 +56,12 @@ export default {
       lighterwhiter: "#F9FAFB",
       textgray: "#777",
       textred: "#ff0000",
-      textlightblue:'#2196f3'
+      textlightblue: '#2196f3'
     },
     extend: {
+      fontFamily: {
+        'Lato': ['Lato']
+      }
     },
   },
   plugins: [],
