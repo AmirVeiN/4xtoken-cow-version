@@ -1,30 +1,30 @@
 <template>
   <div class="flex justify-center  items-center w-full h-full bg-gradient-to-r from-black via-blue2/50 to-black shadow-lg shadow-blue2">
-    <div class="flex w-[70%] h-24 flex-row justify-between items-center min-w-[800px] ">
-      <div class="flex items-center min-w-60 flex-row justify-between">
+    <div class="flex w-[70%] ph:w-[95%] h-24 flex-row justify-between items-center  2xl:min-w-[800px] xl:min-w-[800px] lg:min-w-[800px] md:min-w-[600px] sm:min-w-[600px]">
+      <div class="flex items-center min-w-60 ph:min-w-0 ph:space-x-3 flex-row justify-between">
         <RouterLink to="/"
-          class="text-white bg-black/50 rounded-full border text-2xl border-white w-10 h-10 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
+          class="text-white bg-black/50 rounded-full ph:text-base border  border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-telegram" />
         </RouterLink>
         <RouterLink to="/"
-          class="text-white bg-black/50 rounded-full text-lg border border-white w-10 h-10 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
+          class="text-white bg-black/50 rounded-full ph:text-base  border border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-discord" />
         </RouterLink>
         <RouterLink to="/"
-          class="text-white bg-black/50 rounded-full text-xl border border-white w-10 h-10 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
+          class="text-white bg-black/50 rounded-full ph:text-base  border border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-twitter" />
         </RouterLink>
         <RouterLink to="/"
-          class="text-white bg-black/50 text-2xl rounded-full border border-white w-10 h-10 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
+          class="text-white bg-black/50  ph:text-base rounded-full border border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-instagram" />
         </RouterLink>
       </div>
-      <div class="flex justify-center items-center">
-        <img src="../assets/logo.png" class="" alt="" width="100" />
+      <div class="flex justify-center items-center ph:w-20 2xl:w-28 xl:w-28 lg:w-28 md:w-28 sm:w-28">
+        <img src="../assets/logo.png" class="" alt="" />
       </div>
-      <button class="text-white bg-black/50 rounded-full text-lg border border-white w-10 h-10 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
-        <font-awesome-icon icon="fa-solid fa-bars" />
-      </button>
+      <a href="https://buy.4xtoken.com/" class="text-white bg-black/50 rounded-full 2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-base ph:text-sm border border-white lg:w-28 lg:h-10 2xl:w-28 2xl:h-10 md:w-28 md:h-10 xl:w-28 xl:h-10 ph:w-20 ph:h-9 shadow-lg shadow-white/20 hover:shadow-md hover:shadow-white/50 flex justify-center items-center">
+        Buy New
+      </a>
     </div>
   </div>
 </template>
