@@ -19,7 +19,7 @@
                             our 4X tokens (or you will miss the movment)
                         </p>
                         <div class="flex flex-row justify-between w-[500px] ph:w-[320px]  space-x-4">
-                            <a href="https://buy.4xtoken.com/"
+                            <a href="https://presale.4xtoken.com/"
                                 class="bg-blue1/80 font-Lato shadow-lg shadow-blue1/80 text-white flex justify-center items-center rounded-full 2xl:text-xl xl:text-lg lg:text-base md:text-lg sm:text-lg py-3 w-full">
                                 Buy Now
                             </a>
