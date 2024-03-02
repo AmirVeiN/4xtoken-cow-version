@@ -14,8 +14,8 @@ import {
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {faBars , faCheck} from "@fortawesome/free-solid-svg-icons"
-import {faCopy} from "@fortawesome/free-regular-svg-icons"
+import { faBars, faCheck, faArrowDownLong } from "@fortawesome/free-solid-svg-icons"
+import { faCopy } from "@fortawesome/free-regular-svg-icons"
 
 library.add(
     faTwitter,
@@ -25,6 +25,7 @@ library.add(
     faBars,
     faCopy,
     faCheck,
+    faArrowDownLong,
 );
 const app = createApp(App)
 

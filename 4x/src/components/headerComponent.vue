@@ -21,13 +21,13 @@
           <font-awesome-icon icon="fa-brands fa-instagram" />
         </a>
       </div>
-      <div class="flex justify-center items-center ph:w-20 2xl:w-28 xl:w-28 lg:w-28 md:w-28 sm:w-28">
+      <RouterLink to="/" class="flex justify-center items-center ph:w-20 2xl:w-28 xl:w-28 lg:w-28 md:w-28 sm:w-28">
         <img src="../assets/logo.png" class="" alt="" />
-      </div>
-      <a href="https://presale.4xtoken.com/"
+      </RouterLink>
+      <RouterLink to="/presale"
         class="text-white bg-black/50 rounded-full 2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-base ph:text-sm border border-white lg:w-28 lg:h-10 2xl:w-28 2xl:h-10 md:w-28 md:h-10 xl:w-28 xl:h-10 ph:w-20 ph:h-9 shadow-lg shadow-white/20 hover:shadow-md hover:shadow-white/50 flex justify-center items-center">
         Buy Now
-      </a>
+      </RouterLink>
     </div>
   </div>
 </template>

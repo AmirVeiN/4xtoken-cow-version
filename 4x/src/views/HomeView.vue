@@ -1,5 +1,3 @@
-
-
 <template>
     <div class="bg-black w-full h-full ">
         <headerComponent />
@@ -14,15 +12,17 @@
                             Forex and Crypto</p>
                         <p
                             class="text-gray ph:text-center ph:text-base 2xl:p-0 xl:p-0 lg:p-0 md:p-0 sm:p-0 ph:px-5 2xl:text-xl xl:text-lg lg:text-lg md:text-left sm:text-center md:text-pretty sm:text-pretty 2xl:text-left xl:text-left lg:text-left md:text-lg sm:text-lg 2xl:w-[500px] xl:w-[500px] lg:w-[500px] md:w-[500px] sm:w-[500px] ph:w-[95%] font-Lato font-semibold">
-                            for the first time in the world the revolution of crypto and forex has happened which is called
-                            4xFinance, to be part of this tribe you should click on the Buy button and then purchase some of
+                            for the first time in the world the revolution of crypto and forex has happened which is
+                            called
+                            4xFinance, to be part of this tribe you should click on the Buy button and then purchase
+                            some of
                             our 4X tokens (or you will miss the movment)
                         </p>
                         <div class="flex flex-row justify-between w-[500px] ph:w-[320px]  space-x-4">
-                            <a href="https://presale.4xtoken.com/"
+                            <RouterLink to="/presale"
                                 class="bg-blue1/80 font-Lato shadow-lg shadow-blue1/80 text-white flex justify-center items-center rounded-full 2xl:text-xl xl:text-lg lg:text-base md:text-lg sm:text-lg py-3 w-full">
                                 Buy Now
-                            </a>
+                            </RouterLink>
                             <RouterLink to="/"
                                 class="bg-blue2 font-Lato text-white shadow-lg shadow-blue2 flex justify-center items-center rounded-full 2xl:text-xl xl:text-lg lg:text-lg md:text-lg sm:text-lg  py-3 w-full">
                                 WhitePaper
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div
-                    class=" 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-[90%] h-full flex justify-center items-center flex-col">
+                    class=" 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-[90%] pb-20 h-full flex justify-center items-center flex-col">
                     <div class="relative w-full flex justify-end items-center pb-10">
                         <div
                             class="text-white ph:text-lg 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl  sm:text-3xl 2xl:w-[520px] xl:w-[520px] lg:w-[520px] md:w-[450px] sm:w-[450px] ph:w-[300px] z-20 font-Lato p-5 border-r-2 rounded-3xl border-blue2 font-bold ">
@@ -87,7 +87,8 @@
                             </div>
                             <div class="flex flex-col space-y-2">
                                 <p class="text-white text-2xl font-Lato ph:text-xl">Verifed Team</p>
-                                <p class="text-gray text-xl font-Lato ph:text-lg">18 people working all day on this project
+                                <p class="text-gray text-xl font-Lato ph:text-lg">18 people working all day on this
+                                    project
                                 </p>
                             </div>
                         </div>
@@ -97,7 +98,8 @@
                             </div>
                             <div class="flex flex-col space-y-2">
                                 <p class="text-white text-2xl font-Lato ph:text-xl">Support</p>
-                                <p class="text-gray text-xl font-Lato ph:text-lg">4xFinance has its own 24/7 support team
+                                <p class="text-gray text-xl font-Lato ph:text-lg">4xFinance has its own 24/7 support
+                                    team
                                 </p>
                             </div>
                         </div>
@@ -122,9 +124,12 @@
                         <div class=" w-full h-full flex justify-end items-center">
                             <p class="font-Lato text-gray text-xl w-auto ph:text-base ph:text-pretty">
                                 professional experts in developing blockchain technology and web3 contains (1CEO - 5
-                                Marketing experts - 4 CTO - 3 CFO - 2 product manager - 3 advisore ) in total 18 people with
-                                6 year + experince in developing and deploying business we aim to build an empire of $30M+
-                                Mcap crypto project we need your support in our journy if you want to know more just click
+                                Marketing experts - 4 CTO - 3 CFO - 2 product manager - 3 advisore ) in total 18 people
+                                with
+                                6 year + experince in developing and deploying business we aim to build an empire of
+                                $30M+
+                                Mcap crypto project we need your support in our journy if you want to know more just
+                                click
                                 on the white paper and read it!
                             </p>
                         </div>
@@ -142,7 +147,7 @@
                         <div
                             class=" ph:w-[95%] 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] 2xl:min-w-[800px] xl:min-w-[700px] md:min-w-[700px] sm:min-w-[600px] ph:min-w-[300px] border-t-2 p-5 space-y-4 rounded-3xl border-blue2 flex-col flex justify-center items-center">
                             <p class="text-white font-Lato font-bold text-5xl ph:text-3xl">Tokenomics</p>
-                            <p class="text-white font-Lato text-3xl ph:text-xl">1,000,000,000,000</p>
+                            <p class="text-white font-Lato text-3xl ph:text-xl">10,000,000,000</p>
                             <p class="text-white font-Lato text-3xl ph:text-xl">Total Supply</p>
                         </div>
                         <div
@@ -151,7 +156,7 @@
                                 Contract Address :
                             </p>
                             <p class="text-white font-Lato ">
-                                0xb504035a11E672e12a099F32B1672b9c4a78b22f
+                                0xa59a967Bb18793b463963Ebc3B5f0236B750625C
                             </p>
                             <button @click="copy()" class="text-white 2xl:pl-28 xl:pl-12 md:pl-12 ph:pl-2">
                                 <font-awesome-icon icon="fa-regular fa-copy" />
@@ -308,7 +313,7 @@ export default {
     components: { RouterLink },
     methods: {
         copy() {
-            navigator.clipboard.writeText("0xb504035a11E672e12a099F32B1672b9c4a78b22f");
+            navigator.clipboard.writeText("0xa59a967Bb18793b463963Ebc3B5f0236B750625C");
         },
         isMobile() {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
