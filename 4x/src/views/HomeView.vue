@@ -51,7 +51,7 @@
                         </div>
                         <div
                             class="font-Lato xl:text-2xl lg:text-xl md:text-lg 2xl:text-3xl ph:text-center sm:text-base ph:text-sm w-full flex justify-center items-center shadow-md shadow-blue1 hover:shadow-lg hover:shadow-blue1 text-gray font-bold ph:p-2 border-2 rounded-full border-blue2 p-4">
-                            32K Community Members
+                            32K Community
                         </div>
                         <div
                             class="font-Lato xl:text-2xl lg:text-xl md:text-lg 2xl:text-3xl ph:text-center sm:text-base ph:text-sm w-full flex justify-center items-center shadow-md shadow-blue1 hover:shadow-lg hover:shadow-blue1 text-gray font-bold ph:p-2 p-4 border-2 rounded-full border-blue2 ">

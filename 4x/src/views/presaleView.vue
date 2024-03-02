@@ -33,9 +33,9 @@
                     <font-awesome-icon icon="fa-solid fa-arrow-down-long" class="text-2xl text-white" />
                 </div>
                 <div
-                    class="flex flex-row justify-between shadow-lg shadow-blue/70 items-center 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-full 2xl:min-w-[800px] xl:min-w-[700px] md:min-w-[700px] sm:min-w-[600px] ph:min-w-[300px] border-[1px] border-white bg-blue2/50 rounded-xl p-5 ">
+                    class="flex flex-row justify-between shadow-lg shadow-blue/70 items-center 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-full 2xl:min-w-[800px] xl:min-w-[700px] md:min-w-[700px] sm:min-w-[600px] ph:min-w-[300px] border-[1px] border-white bg-blue2/50 rounded-xl py-5 px-2 ">
                     <p
-                        class="text-[#f95192] font-Lato 2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl sm:text-lg ph:text-sm">
+                        class="text-[#f95192] font-Lato 2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl sm:text-lg ph:text-xs">
                         0xaC3A99afCEd31F1d7e8890a5C7C2c877dc1792c3
                     </p>
                     <div class="flex flex-row justify-center items-center space-x-5 font-Lato">
@@ -74,7 +74,7 @@
                         Token Name
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-lg rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         4xFinance
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         Token Symbol
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-lg rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         4x
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                         Token Decimals
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-lg rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         18
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         Min Contribute
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-sm rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         0.01 BNB
                     </div>
                 </div>
@@ -118,29 +118,29 @@
                         Max Contribute
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-sm rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         200 BNB
                     </div>
                 </div>
                 <div
                     class="flex flex-row 2xl:min-w-[800px]  xl:min-w-[700px] md:min-w-[700px] sm:min-w-[600px] ph:min-w-[300px] text-white space-x-2 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-full">
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[70%] text-xl">
+                        class="bg-blue2/30  rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[70%] text-xl">
                         Tokens Per BNB
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-lg rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         102000
                     </div>
                 </div>
                 <div
                     class="flex flex-row 2xl:min-w-[800px]  xl:min-w-[700px] md:min-w-[700px] sm:min-w-[600px] ph:min-w-[300px] text-white space-x-2 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] ph:w-full">
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[70%] text-xl">
+                        class="bg-blue2/30 justify-center items-center rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[70%] text-xl">
                         Total Supply
                     </div>
                     <div
-                        class="bg-blue2/30 rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
+                        class="bg-blue2/30 justify-center items-center flex 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg sm:text-lg ph:text-xs rounded-2xl border-[1px] shadow-lg shadow-blue/70 px-5 py-4 font-Lato w-[30%] text-xl text-center">
                         10,000,000,000
                     </div>
                 </div>
