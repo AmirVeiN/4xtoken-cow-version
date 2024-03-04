@@ -19,14 +19,14 @@
                             our 4X tokens (or you will miss the movment)
                         </p>
                         <div class="flex flex-row justify-between w-[500px] ph:w-[320px]  space-x-4">
-                            <RouterLink to="/presale"
+                            <router-link to="/presale"
                                 class="bg-blue1/80 font-Lato shadow-lg shadow-blue1/80 text-white flex justify-center items-center rounded-full 2xl:text-xl xl:text-lg lg:text-base md:text-lg sm:text-lg py-3 w-full">
                                 Buy Now
-                            </RouterLink>
-                            <RouterLink to="/"
+                            </router-link>
+                            <router-link to="/"
                                 class="bg-blue2 font-Lato text-white shadow-lg shadow-blue2 flex justify-center items-center rounded-full 2xl:text-xl xl:text-lg lg:text-lg md:text-lg sm:text-lg  py-3 w-full">
                                 WhitePaper
-                            </RouterLink>
+                            </router-link>
                         </div>
                     </div>
                     <div class="2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full">
