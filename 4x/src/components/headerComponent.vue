@@ -12,7 +12,7 @@
           class="text-white bg-black/50 rounded-full ph:text-base  border border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-discord" />
         </a>
-        <a href="https://twitter.com/4xfinance78904"
+        <a href="https://x.com/4x_coin/"
           class="text-white bg-black/50 rounded-full ph:text-base  border border-white 2xl:w-10 2xl:h-10 2xl:text-2xl xl:w-10 xl:h-10 xl:text-2xl lg:w-10 lg:h-10 lg:text-2xl ph:w-8 ph:h-8 shadow-lg shadow-white/20 hover:shadow-xl hover:shadow-white/50 flex justify-center items-center">
           <font-awesome-icon icon="fa-brands fa-twitter" />
         </a>
